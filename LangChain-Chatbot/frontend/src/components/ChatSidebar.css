@@ -1,0 +1,153 @@
+.chat-sidebar {
+  width: 280px;
+  background: #2d3748;
+  border-right: 1px solid #4a5568;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 20px;
+  border-bottom: 1px solid #4a5568;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header h3 {
+  color: #e2e8f0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.new-chat-button {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.new-chat-button:hover {
+  background: #3182ce;
+}
+
+.sessions-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.loading {
+  color: #a0aec0;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+.no-sessions {
+  color: #a0aec0;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.no-sessions p {
+  margin: 8px 0;
+}
+
+.session-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.session-item:hover {
+  background: #4a5568;
+}
+
+.session-item.active {
+  background: #4299e1;
+}
+
+.session-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.session-title {
+  color: #e2e8f0;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.session-date {
+  color: #a0aec0;
+  font-size: 12px;
+}
+
+.session-item.active .session-title {
+  color: white;
+}
+
+.session-item.active .session-date {
+  color: #e2e8f0;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #a0aec0;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: all 0.2s ease;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.session-item:hover .delete-button {
+  opacity: 1;
+}
+
+.delete-button:hover {
+  background: #e53e3e;
+  color: white;
+}
+
+/* Scrollbar styling */
+.sessions-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sessions-list::-webkit-scrollbar-track {
+  background: #2d3748;
+}
+
+.sessions-list::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 3px;
+}
+
+.sessions-list::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}

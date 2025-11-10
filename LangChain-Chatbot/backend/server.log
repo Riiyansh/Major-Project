@@ -1,0 +1,202 @@
+INFO:     Started server process [56605]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Loading or building index...
+Loading existing FAISS index...
+Index ready. Pages: 5
+INFO:     127.0.0.1:55680 - "OPTIONS /api/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "POST /api/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "OPTIONS /api/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "GET /api/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "OPTIONS /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55683 - "OPTIONS /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55683 - "GET /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "GET /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+QUERY: hey
+RETRIEVED PAGES: 3
+CONTEXT_SNIPPET: Internship  Report  
+ at  V  Group  Inc.  
+ 
+By:
+ 
+Riyansh
+ 
+Chouhan
+ 
+ 
+Role:
+ 
+AI/ML
+ 
+&
+ 
+Analytics
+ 
+Intern
+ 
+(Jun
+ 
+2025
+ 
+–
+ 
+August
+ 
+2025)
+ 
+ 
+Acknowledgement  
+I  would  like  to  express  my...
+INFO:     127.0.0.1:55680 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "OPTIONS /api/chat/sessions/1/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55680 - "GET /api/chat/sessions/1/messages HTTP/1.1" 200 OK
+QUERY: what is v group
+RETRIEVED PAGES: 3
+CONTEXT_SNIPPET: Internship  Report  
+ at  V  Group  Inc.  
+ 
+By:
+ 
+Riyansh
+ 
+Chouhan
+ 
+ 
+Role:
+ 
+AI/ML
+ 
+&
+ 
+Analytics
+ 
+Intern
+ 
+(Jun
+ 
+2025
+ 
+–
+ 
+August
+ 
+2025)
+ 
+ 
+Acknowledgement  
+I  would  like  to  express  my...
+INFO:     127.0.0.1:55734 - "POST /api/chat HTTP/1.1" 200 OK
+QUERY: hey
+RETRIEVED PAGES: 3
+CONTEXT_SNIPPET: Internship  Report  
+ at  V  Group  Inc.  
+ 
+By:
+ 
+Riyansh
+ 
+Chouhan
+ 
+ 
+Role:
+ 
+AI/ML
+ 
+&
+ 
+Analytics
+ 
+Intern
+ 
+(Jun
+ 
+2025
+ 
+–
+ 
+August
+ 
+2025)
+ 
+ 
+Acknowledgement  
+I  would  like  to  express  my...
+INFO:     127.0.0.1:55759 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55759 - "OPTIONS /api/chat/sessions/2/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55759 - "GET /api/chat/sessions/2/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56189 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56189 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+QUERY: what is v group
+RETRIEVED PAGES: 3
+CONTEXT_SNIPPET: Internship  Report  
+ at  V  Group  Inc.  
+ 
+By:
+ 
+Riyansh
+ 
+Chouhan
+ 
+ 
+Role:
+ 
+AI/ML
+ 
+&
+ 
+Analytics
+ 
+Intern
+ 
+(Jun
+ 
+2025
+ 
+–
+ 
+August
+ 
+2025)
+ 
+ 
+Acknowledgement  
+I  would  like  to  express  my...
+INFO:     127.0.0.1:56215 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56236 - "OPTIONS /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56236 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56236 - "GET /api/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56236 - "GET /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /api/chat/sessions/2/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /api/chat/sessions/1/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56247 - "OPTIONS /api/chat/sessions/3/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56247 - "GET /api/chat/sessions/3/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56247 - "GET /api/chat/sessions/1/messages HTTP/1.1" 200 OK
+QUERY: can you repart
+RETRIEVED PAGES: 3
+CONTEXT_SNIPPET: ●  Used  transformer  models  (T5)  to  extract  conversation  context .  
+ ●  Applied  VADER  and  fine-tuned  sentiment  models  to  classify  calls  as  positive,  
+neutral,
+ 
+or
+ 
+negative.
+ 
+ 
+5....
+INFO:     127.0.0.1:56827 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56827 - "GET /api/chat/sessions/2/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56827 - "GET /api/chat/sessions/3/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56827 - "GET /api/chat/sessions/1/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53223 - "OPTIONS /api/chat/sessions/3/messages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53223 - "GET /api/chat/sessions/3/messages HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53245 - "OPTIONS /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53245 - "POST /api/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53245 - "OPTIONS /api/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53245 - "GET /api/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53245 - "OPTIONS /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53248 - "OPTIONS /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53248 - "GET /api/chat/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53245 - "GET /api/chat/sessions HTTP/1.1" 200 OK
